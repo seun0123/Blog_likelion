@@ -1,0 +1,7 @@
+{% for blogs in blogs.all %}
+    <h1>{{ blogs.title }}</h1>
+    <P>{{ blogs.pub_date }}</P>
+    <b>{{ blogs.author }}</b>
+    <b>{{ blogs.feelings }}</b>
+    <b>{{ blogs.body }}</b>
+{% endfor %}
